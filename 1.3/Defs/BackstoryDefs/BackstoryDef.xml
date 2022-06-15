@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+  <AlienRace.BackstoryDef>
+    <defName>OrphanLoaf</defName>
+    <title>Orphan Squealer</title>
+    <titleShort>Orphan</titleShort>
+    <baseDescription>[PAWN_nameDef] was recovered by salvage teams after [PAWN_possessive] biological parents were killed in a major disaster. [PAWN_pronoun] was awkwardly incorporated into a new community was treated like a piece of repurposed equipment.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <workDisables>
+		  <li>Artistic</li>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+ 
+  <AlienRace.BackstoryDef>
+    <defName>GopherLoaf</defName>
+    <title>Gopher Squealer</title>
+    <titleShort>Gopher</titleShort>
+    <baseDescription>[PAWN_nameDef] was grown to fulfil a labor shortage in a large tozol colony. They've been doing scut-work since their limbs finished growing in.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <workDisables>
+		  <li>Artistic</li>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+ 
+  <AlienRace.BackstoryDef>
+    <defName>WarriorLoaf</defName>
+    <title>Warrior Squealer</title>
+    <titleShort>Warrior</titleShort>
+    <baseDescription>[PAWN_nameDef] was unlucky enough to grow up fighting, but lucky enough to survive. The experience, having proven [PAWN_possessive] worth, [PAWN_objective] reached adulthood with more social confidence.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <workDisables>
+		  <li>Artistic</li>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+ 
+  <AlienRace.BackstoryDef>
+    <defName>FrontierLoaf</defName>
+    <title>Frontier Squealer</title>
+    <titleShort>Frontier</titleShort>
+    <baseDescription>[PAWN_nameDef] was raised in a small tozol expedition. [PAWN_pronoun] gathered useful skills from several team members sharing parental duties, but may not have been properly soldierized.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <workDisables>
+		  <li>Artistic</li>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+ 
+  <AlienRace.BackstoryDef>
+    <defName>ShipboardLoaf</defName>
+    <title>Shipboard Squealer</title>
+    <titleShort>Shipboard</titleShort>
+    <baseDescription>[PAWN_nameDef] grew up aboard a ramshackle refugee space fleet. [PAWN_pronoun] was raised with the technical skills to help keep things running, but terrestrial life was something of a mystery.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <workDisables>
+		  <li>Artistic</li>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+ 
+  <AlienRace.BackstoryDef>
+    <defName>ArtifacturedLoaf</defName>
+    <title>Artifactured Squealer</title>
+    <titleShort>Artifactured</titleShort>
+    <baseDescription>[PAWN_nameDef] was vat-printed by ancient equipment in a Precursor-built vault which was rediscovered and reactivated by a science expedition.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <workDisables>
+		  <li>Artistic</li>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+ 
+  <AlienRace.BackstoryDef>
+    <defName>FortressLoaf</defName>
+    <title>Fortress Squealer</title>
+    <titleShort>Fortress</titleShort>
+    <baseDescription>[PAWN_nameDef] was created in a well-established tozol fortress and given a well-rounded early education.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <workDisables>
+		  <li>Artistic</li>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+ 
+  <AlienRace.BackstoryDef>
+    <defName>FosterLoaf</defName>
+    <title>Fostered Squealer</title>
+    <titleShort>Fostered</titleShort>
+    <baseDescription>[PAWN_nameDef] was found after being lost by their original tozol parents. [PAWN_pronoun] was found and raised by aliens giving them a relatively safe if abnormal upbringing for a tozol.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+ 
+  <AlienRace.BackstoryDef>
+    <defName>LabLoaf</defName>
+    <title>Specimen Squealer</title>
+    <titleShort>Specimen</titleShort>
+    <baseDescription>[PAWN_nameDef] was found after being lost by their original tozol parents. [PAWN_pronoun] was secreted away to a clandestine lab to be studied and experimented on. [PAWN_pronoun] would eventually breach containment and escape.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <workDisables>
+		  <li>Artistic</li>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+ 
+  <AlienRace.BackstoryDef>
+    <defName>OrbitalLoaf</defName>
+    <title>Orbital Squealer</title>
+    <titleShort>Orbital</titleShort>
+    <baseDescription>[PAWN_nameDef] was created on a large orbital space habitat. [PAWN_pronoun] was taught how to upkeep the habitat as well as mining astroids.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <workDisables>
+		  <li>Artistic</li>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+ 
+  <AlienRace.BackstoryDef>
+    <defName>AncientLoaf</defName>
+    <title>Ancient Squealer</title>
+    <titleShort>Ancient</titleShort>
+    <baseDescription>[PAWN_nameDef] was created in the time of the precursors for a long forgotten purpose. [PAWN_possessive] creators programmed everything they thought would be useful for whatever purpose [PAWN_pronoun] was to be used for.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <workDisables>
+		  <li>Artistic</li>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+    <bioAgeRange>
+      <min>500</min>
+    </bioAgeRange>
+    <chronoAgeRange>
+      <min>1000</min>
+      <max>3000</max>
+    </chronoAgeRange>
+  </AlienRace.BackstoryDef>
+ 
+  <AlienRace.BackstoryDef>
+    <defName>LostLoaf</defName>
+    <title>Lost Squealer</title>
+    <titleShort>Lost</titleShort>
+    <baseDescription>[PAWN_nameDef] was left to fend for themselves after becoming seperated from [PAWN_possessive] biological parents. [PAWN_pronoun] beat the odds and managed to survive to adulthood.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <workDisables>
+		  <li>Artistic</li>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <!-- ====== Adult Stories - not porn ====== -->
+
+
+<AlienRace.BackstoryDef>
+    <defName>TozolCommander</defName>
+    <title>Army commander</title>
+	<titleShort>Army commander</titleShort>
+    <baseDescription>[PAWN_nameDef] leads troops as their commander. [PAWN_pronoun] has successfully led troops through a number of conflicts.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+  <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+	        <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>TozolMCommander</defName>
+    <title>Merc commander</title>
+	<titleShort>Merc commander</titleShort>
+    <baseDescription>[PAWN_nameDef] leads a troop of mercenaries as their commander. [PAWN_pronoun] has successfully led troops through a number of conflicts.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+  <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+	        <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>TozolSoldierAx</defName>
+    <title>Army soldier</title>
+	<titleShort>Army soldier</titleShort>
+    <baseDescription>[PAWN_nameDef] was assigned to one of the larger units, serving through several major conflicts.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+  <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+	    <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+       <li>
+        <defName>Intellectual</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>TozolSoldierMx</defName>
+    <title>Merc soldier</title>
+	<titleShort>Merc soldier</titleShort>
+    <baseDescription>[PAWN_nameDef] was contracted with a large mercenary unit, serving through several major conflicts.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+	    <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+       <li>
+        <defName>Intellectual</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>TozolGunmakerA</defName>
+    <title>Army gunsmith</title>
+    <titleShort>Army gunsmith</titleShort>
+    <baseDescription>[PAWN_nameDef]'s training was augmented with gunsmithing and maintenance, serving [PAWN_possessive] platoon's needs for weapon maintenance and requisition.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>9</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+   <AlienRace.BackstoryDef>
+    <defName>TozolGunmakerM</defName>
+    <title>Merc gunsmith</title>
+    <titleShort>Merc gunsmith</titleShort>
+    <baseDescription>[PAWN_nameDef]'s training was augmented with gunsmithing and maintenance, serving [PAWN_possessive] merc unit's needs for weapon maintenance and requisition.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>9</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+      <AlienRace.BackstoryDef>
+    <defName>TozolDeveloper</defName>
+    <title>Battlesim developer</title>
+    <titleShort>Military dev</titleShort>
+    <baseDescription>[PAWN_nameDef] has an extensive expertise in programming and tactical combat, making [PAWN_possessive] a leading expert in BattleSim development - creating extremely effective training simulations for troops.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>7</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>7</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+      <AlienRace.BackstoryDef>
+    <defName>TozolCmbEngA</defName>
+    <title>Army engineer</title>
+    <titleShort>Army engineer</titleShort>
+    <baseDescription>[PAWN_nameDef] served as a combat engineer with a major army detachment, servicing vehicles and equipment.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+        <AlienRace.BackstoryDef>
+    <defName>TozolCmbEngM</defName>
+    <title>Merc engineer</title>
+    <titleShort>Merc engineer</titleShort>
+    <baseDescription>[PAWN_nameDef] served as a combat engineer with a famous merc unit, servicing their vehicles and equipment.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>TozolAMedic</defName>
+    <title>Army medic</title>
+    <titleShort>Army medic</titleShort>
+    <baseDescription>[PAWN_nameDef] serves as a combat medic, performing triage on the front lines, or more extensive medicine at a MASH (Mobile Army Surgical Hospital) unit.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>TozolMercMedic</defName>
+    <title>Merc medic</title>
+    <titleShort>Merc medic</titleShort>
+    <baseDescription>[PAWN_nameDef] is contracted as a mercenary combat medic, performing triage on the front lines, or more extensive medicine at a MASH (Mobile Army Surgical Hospital) unit.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+
+    <AlienRace.BackstoryDef>
+    <defName>TozolScout</defName>
+    <title>Army scout</title>
+    <titleShort>Army scout</titleShort>
+    <baseDescription>[PAWN_nameDef] serves as a scout for a large detachment of troops, identifying hazards and potential ambush points.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>TozolMScout</defName>
+    <title>Merc scout</title>
+    <titleShort>Merc scout</titleShort>
+    <baseDescription>[PAWN_nameDef] serves as a scout for a veteran mercenary group, identifying hazards and potential ambush points.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+ 
+    <AlienRace.BackstoryDef>
+    <defName>MajorTozol</defName>
+    <title>Army major</title>
+    <titleShort>Army major</titleShort>
+    <baseDescription>[PAWN_nameDef] served as intelligence officer for a large army unit, providing tactical support and intel coordination for [PAWN_possessive] unit.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	  <femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+       <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+       <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+      <AlienRace.BackstoryDef>
+    <defName>MajorMTozol</defName>
+    <title>Merc major</title>
+    <titleShort>Merc major</titleShort>
+    <baseDescription>[PAWN_nameDef] served as intelligence officer for a large mercenary corps, providing tactical support and intel coordination.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	  <femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+       <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+       <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>TozolAPilot</defName>
+    <title>Army pilot</title>
+    <titleShort>Army pilot</titleShort>
+    <baseDescription>[PAWN_nameDef] served as a military pilot in a variety of fighter and support craft.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+	  <femaleCommonality>30</femaleCommonality>
+      <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+    <skillGains>
+          <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    </AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>TozolMPilot</defName>
+    <title>Merc pilot</title>
+    <titleShort>Merc pilot</titleShort>
+    <baseDescription>[PAWN_nameDef] was contracted as a military pilot to fly a variety of fighter and support craft, in multiple combat roles.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+	  <femaleCommonality>30</femaleCommonality>
+      <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+    <skillGains>
+          <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    </AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>TozolACommando</defName>
+    <title>Army commando</title>
+    <titleShort>Army commando</titleShort>
+    <baseDescription>[PAWN_nameDef] served with a small army commando unit, executing strike or extraction missions deep behind enemy lines.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>28</maleCommonality>
+  	<femaleCommonality>28</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+	    <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>TozolMCommando</defName>
+    <title>Merc commando</title>
+    <titleShort>Merc commando</titleShort>
+    <baseDescription>[PAWN_nameDef] served with a small merc commando unit, executing strike or extraction missions deep behind enemy lines.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>28</maleCommonality>
+  	<femaleCommonality>28</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+	    <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  	  <AlienRace.BackstoryDef>
+    <defName>TozolADemo</defName>
+    <title>Army demolitions</title>
+    <titleShort>Army demo</titleShort>
+    <baseDescription>[PAWN_nameDef] served as a demolitions and heavy weapons expert in a large detachment of troops. [PAWN_pronoun] has an expertise in various explosives, as well as combat engineering.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>10</maleCommonality>
+	<femaleCommonality>10</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+         <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  	 	  <AlienRace.BackstoryDef>
+    <defName>TozolMDemo</defName>
+    <title>Merc demolitions</title>
+    <titleShort>Merc demo</titleShort>
+    <baseDescription>[PAWN_nameDef] served as a demolitions and heavy weapons expert in a large merc unit. [PAWN_pronoun] has an expertise in various explosives, as well as combat engineering.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>18</maleCommonality>
+	<femaleCommonality>18</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+         <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>Tozolmechw</defName>
+    <title>Mech pilot</title>
+    <titleShort>Mechwarrior</titleShort>
+    <baseDescription>[PAWN_nameDef] is a Battlemech pilot, a Mech Warrior. Operating these massive walking tanks, MechWarriors serve in the armies of the Great Houses or as part of a Mercenary unit, fight in the gladiatorial arenas of Solaris VII, or operate on the fringes of society as pirates and bandits. Among the Clans, a MechWarrior can either be trueborn or freeborn, with the former enjoying greater social standing.
+    The jumpship [PAWN_pronoun] was on suffered a jump-drive malfunction, casting them off into the unknown. After waiting several weeks for rescue, with supplies running low, the crew decided to use the escape pods at the nearest habitable planet...
+    </baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>8</amount>
+      </li>
+	  <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>TozolBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+</Defs>
