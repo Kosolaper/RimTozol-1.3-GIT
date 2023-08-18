@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<AlienRace.ThingDef_AlienRace ParentName="HumanRace">
+		
+		<defName>Alien_Tozol</defName>
+		<label>tozol</label>
+		<description>A humanoid biological weapon system created by a transcendent precursor civilization. Engineered to be quick and deadly with ranged weapons, Tozols excel in their role as light infantry.</description>
+		<statBases>
+			<MarketValue>8000</MarketValue>
+			<MoveSpeed>16</MoveSpeed>
+			<Flammability>0.5</Flammability>
+			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+			<ComfyTemperatureMax>50</ComfyTemperatureMax>
+			<LeatherAmount>0</LeatherAmount>
+			<RoyalFavorValue>0</RoyalFavorValue>
+			<ShootingAccuracyPawn>10</ShootingAccuracyPawn>
+			<AimingDelayFactor>0.5</AimingDelayFactor>
+			<MentalBreakThreshold>0.15</MentalBreakThreshold>
+			<PsychicSensitivity>0</PsychicSensitivity>
+			<ToxicResistance>0.05</ToxicResistance>
+			<RestRateMultiplier>2</RestRateMultiplier>
+			<ImmunityGainSpeed>5</ImmunityGainSpeed>
+			<CarryingCapacity>150</CarryingCapacity>
+			<PainShockThreshold>5</PainShockThreshold>
+			<NegotiationAbility>0.75</NegotiationAbility>
+			<ArrestSuccessChance>2</ArrestSuccessChance>
+			<TradePriceImprovement>0.75</TradePriceImprovement>
+			<SocialImpact>0.75</SocialImpact>
+			<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+		</statBases>
+		
+		<tools>
+		  <li>
+			<label>left fist</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>10</power>
+			<cooldownTime>2</cooldownTime>
+			<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+			<surpriseAttack>
+				<extraMeleeDamages>
+				  <li>
+					<def>Stun</def>
+					<amount>14</amount>
+				  </li>
+				</extraMeleeDamages>
+			</surpriseAttack>
+		  </li>
+		  <li>
+			<label>right fist</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>10</power>
+			<cooldownTime>2</cooldownTime>
+			<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+			<surpriseAttack>
+				<extraMeleeDamages>
+				  <li>
+					<def>Stun</def>
+					<amount>14</amount>
+				  </li>
+				</extraMeleeDamages>
+			</surpriseAttack>
+		  </li>
+		  <li>
+			<label>teeth</label>
+			<capacities>
+			  <li>Bite</li>
+			</capacities>
+			<power>15</power>
+			<cooldownTime>2</cooldownTime>
+			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			<chanceFactor>0.25</chanceFactor>
+		  </li>
+		</tools>
+		
+		<race>
+			<thinkTreeMain>Humanlike</thinkTreeMain>
+			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+			<intelligence>Humanlike</intelligence>
+			<makesFootprints>true</makesFootprints>
+			
+			<nameGenerator>NamerPersonTozol</nameGenerator>
+			<lifeExpectancy>1000</lifeExpectancy>
+			<bloodDef></bloodDef>
+			
+			<leatherDef>Leather_Light</leatherDef>
+			
+			<nameCategory>HumanStandard</nameCategory>
+			
+			<body>Tozol</body>
+			<baseBodySize>1</baseBodySize>
+			<baseHealthScale>1.5</baseHealthScale>
+			<baseHungerRate>1</baseHungerRate>
+			<foodType>OmnivoreHuman</foodType>
+			<gestationPeriodDays>45</gestationPeriodDays>
+			
+			<ageGenerationCurve>
+				<points>
+				  <li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+				  <li MayRequire="Ludeon.RimWorld.Biotech">(0.001,20)</li>
+				  <li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
+				  <li MayRequire="Ludeon.RimWorld.Biotech">(12.5,30)</li>
+				  <!-- Exclude 12.5-13 years to avoid spawning pawns who are very close to becoming adults -->  
+				  <li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>  
+				  <li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>      
+				  <li MayRequire="Ludeon.RimWorld.Biotech">(13.001,40)</li>
+				  <!-- End exclude -->
+				  <li MayRequire="Ludeon.RimWorld.Biotech">(13.999,40)</li>
+				  <li>(14,0)</li>
+				  <li MayRequire="Ludeon.RimWorld.Biotech">(14.001,40)</li>
+				  <li>(20,100)</li>
+				  <li>(60,80)</li>
+				  <li>(100,40)</li>
+				  <li>(200,10)</li>
+				  <li>(450,3)</li>
+				  <li>(900,1)</li>
+				  <li>(2000,0)</li>
+				</points>
+			</ageGenerationCurve>
+			
+			<lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
+				<Firefighter>6</Firefighter>
+				<Patient>0</Patient>
+				<Doctor>10</Doctor>
+				<PatientBedRest>0</PatientBedRest>
+				<Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+				<BasicWorker>6</BasicWorker>
+				<Warden>10</Warden>
+				<Handling>7</Handling>
+				<Cooking>7</Cooking>
+				<Hunting>7</Hunting>
+				<Construction>10</Construction>
+				<Growing>7</Growing>
+				<Mining>3</Mining>
+				<PlantCutting>7</PlantCutting>
+				<Smithing>13</Smithing>
+				<Tailoring>7</Tailoring>
+				<Art>10</Art>
+				<Crafting>7</Crafting>
+				<Hauling>3</Hauling>
+				<Cleaning>3</Cleaning>
+				<Research>13</Research>
+			</lifeStageWorkSettings>
+			
+			<hediffGiverSets>
+			  <li>TozolOrganicAgeless</li>
+			</hediffGiverSets>
+		</race>
+	
+		<alienRace>
+			<generalSettings>
+				<maleGenderProbability>0.4</maleGenderProbability>
+				
+				<forcedRaceTraitEntries>
+				  <li>
+					<defName>Bloodlust</defName>
+					<chance>100</chance>
+				  </li>
+				</forcedRaceTraitEntries>
+				
+				<disallowedTraits>
+				  <li>
+					<defName>Brawler</defName>
+				  </li>
+				  <li>
+					<defName>Cannibal</defName>
+				  </li>
+				  <li>
+					<defName>Tough</defName>
+				  </li>
+				  <li>
+					<defName>Greedy</defName>
+				  </li>
+				  <li>
+					<defName>Jealous</defName>
+				  </li>
+				  <li>
+					<defName>Wimp</defName>
+				  </li>
+				  <li>
+					<defName>BodyPurist</defName>
+				  </li>
+				  <li>
+					<defName>Transhumanist</defName>
+				  </li>
+				  <li>
+					<defName>TorturedArtist</defName>
+				  </li>
+				  <li>
+					<defName>DrugDesire</defName>
+					<degree>2</degree>
+				  </li>
+				  <li>
+					<defName>DrugDesire</defName>
+					<degree>1</degree>
+				  </li>
+				  <li>
+					<defName>DrugDesire</defName>
+					<degree>-1</degree>
+				  </li>
+				  <li>
+					<defName>PsychicSensitivity</defName>
+					<degree>1</degree>
+				  </li>
+				  <li>
+					<defName>PsychicSensitivity</defName>
+					<degree>2</degree>
+				  </li>
+				  
+				  <li>
+					<defName>PsychicSensitivity</defName>
+					<degree>-1</degree>
+				  </li>
+				  <li>
+					<defName>PsychicSensitivity</defName>
+					<degree>-2</degree>
+				  </li>
+				</disallowedTraits>
+				
+				<immuneToAge>true</immuneToAge>
+				
+				<chemicalSettings>
+				  <li>
+					<chemical>Luciferium</chemical>
+					<ingestible>false</ingestible>
+				  </li>
+				  <li>
+					<chemical>Psychite</chemical>
+					<ingestible>false</ingestible>
+				  </li>
+				  <li>
+					<chemical>Smokeleaf</chemical>
+					<ingestible>false</ingestible>
+				  </li>
+				  <li>
+					<chemical>WakeUp</chemical>
+					<ingestible>false</ingestible>
+				  </li>
+				  <li>
+					<chemical>GoJuice</chemical>
+					<ingestible>false</ingestible>
+				  </li>
+				  <li>
+					<chemical>Alcohol</chemical>
+					<ingestible>false</ingestible>
+				  </li>
+				  <li>
+					<chemical>Ambrosia</chemical>
+					<ingestible>false</ingestible>
+				  </li>
+				</chemicalSettings>
+				
+				<maxDamageForSocialfight>6</maxDamageForSocialfight>
+				
+				<allowHumanBios>false</allowHumanBios>
+				
+				<alienPartGenerator>
+					<colorChannels>
+					  <li>
+						<name>skin</name>
+						<first Class="ColorGenerator_Options">
+							<options>
+							  <li>
+								<weight>10</weight>
+								<only>RGBA(166,166,166)</only>
+							  </li>
+							  <li>
+								<weight>10</weight>
+								<only>RGBA(128,128,128)</only>
+							  </li>
+							  <li>
+								<weight>5</weight>
+								<only>RGBA(115,115,115)</only>
+							  </li>
+							  <li>
+								<weight>5</weight>
+								<only>RGBA(179,179,179)</only>
+							  </li>
+							</options>
+						</first>
+						<second Class="ColorGenerator_Single">
+							<color>RGBA(255, 255, 255)</color>
+						</second>
+					  </li>
+					</colorChannels>
+					
+					<headTypes Inherit="False">
+					  <li>Female_Average_Normal</li>
+					  <li>Male_Average_Normal</li>
+					</headTypes>
+					
+					<bodyTypes Inherit="false">
+					  <li>Male</li>
+					  <li>Female</li>
+					</bodyTypes>
+					
+					<bodyAddons>
+					  <li>
+						<path>Tozol/Tails/TTail</path>
+						<defaultOffset>Tail</defaultOffset>
+						<drawnInBed>false</drawnInBed>
+						<drawnDesiccated>false</drawnDesiccated>
+						<colorChannel>skin</colorChannel>
+						<shaderType>Cutout</shaderType>
+						<offsets>
+							<south>
+								<offset>(-0.42,-0.07)</offset>
+							</south>
+							<north>
+								<offset>(0,0.30)</offset>
+							</north>
+							<east>
+								<offset>(-0.1,0.2)</offset>
+							</east>
+						</offsets>
+					  </li>
+					</bodyAddons>
+					
+				</alienPartGenerator>
+		
+			</generalSettings>
+			
+			<graphicPaths>
+				<head>
+					<path>Tozol/Heads/</path>
+				</head>
+				
+				<skinShader>Cutout</skinShader>
+				
+			</graphicPaths>
+			
+			<styleSettings>
+			  <li>
+				<key>HairDef</key>
+				<value>
+					<hasStyle>false</hasStyle>
+				</value>
+			  </li>
+			  <li>
+				<key>BeardDef</key>
+				<value>
+					<hasStyle>false</hasStyle>
+				</value>
+			  </li>
+			  <li>
+				<key>TattooDef</key>
+				<value>
+					<hasStyle>false</hasStyle>
+				</value>
+			  </li>
+				
+			</styleSettings>
+			
+			<thoughtSettings>
+				<cannotReceiveThoughts>
+				  <li>KnowPrisonerDiedInnocent</li>
+				  <li>ObservedLayingCorpse</li>
+				  <li>WitnessedDeathNonAlly</li>
+				  <li>ButcheredHumanlikeCorpse</li>
+				  <li>KnowButcheredHumanlikeCorpse</li>
+				  <li>AteHumanlikeMeatDirect</li>
+				  <li>AteHumanlikeMeatAsIngredient</li>
+				  <li>AteHumanlikeMeatDirectCannibal</li>
+				  <li>KnowPrisonerSold</li>
+				  <li>AteHumanlikeMeatAsIngredientCannibal</li>
+				  <li>WrongApparelGender</li>
+				  <li>Naked</li>
+				</cannotReceiveThoughts>
+				
+			</thoughtSettings>
+			
+			<relationSettings></relationSettings>
+			
+			<raceRestriction>
+				<onlyUseRaceRestrictedXenotypes>true</onlyUseRaceRestrictedXenotypes>
+				<onlyHaveRaceRestrictedGenes>true</onlyHaveRaceRestrictedGenes>
+				
+				<reproductionList>
+				  <li>Alien_Tozol</li>
+				</reproductionList>
+				
+				<onlyReproduceWithRestrictedRaces>false</onlyReproduceWithRestrictedRaces>
+				
+			</raceRestriction>
+			
+			<compatibility></compatibility>
+		</alienRace>
+	
+	</AlienRace.ThingDef_AlienRace>
+</Defs>
