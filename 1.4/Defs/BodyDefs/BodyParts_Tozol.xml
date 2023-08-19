@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<BodyPartDef>
+		<defName>TozolTail</defName>
+		<label>Tails</label>
+		<hitPoints>20</hitPoints>
+		<frostbiteVulnerability>8</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<bleedRate>0</bleedRate>
+		<beautyRelated>true</beautyRelated>
+		<tags>
+			<li>MovingLimbDigit</li>
+		</tags>
+	</BodyPartDef>
+</Defs>
